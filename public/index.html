@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="./tailwind.css">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-image: url('/bg-pattern-top.svg');
+      background-position: -200px;
+      background-repeat: unset;
+      background-position-y: -600px;
+    }
+  </style>
+
+</head>
+
+<body class="bg-Darkcyan">
+  <div class="mx-auto mt-36 items-center md:w-3/12 w-10/12 bg-white rounded-lg max-w-md min-w-small">
+    <div class="w-full object-cover">
+      <img src="bg-pattern-card.svg" alt="" class="rounded-t-lg relative w-full object-cover">
+    </div>
+    <div class="p-2">
+      <div class="-mt-2 items-center justify-center rounded-full flex">
+        <img src="image-victor.jpg" alt="" class="absolute rounded-full border-4 border-white">
+      </div>
+      <div class="mt-16">
+        <p class=" font-bold text-center">Victor Crest <span class="ml-3 font-medium text-Darkgrayishblue">26</span></p>
+        <p class="text-center font-medium mb-3 mt-1 text-Darkgrayishblue">London</p>
+      </div>
+      <div class="border border-Darkgray w-full ">
+
+      </div>
+      <div class="flex justify-between items-center mx-auto px-7 py-3">
+        <div class="text-center">
+          <h1 class="font-bold">80K</h1>
+          <p class="text-Darkgrayishblue">Followers</p>
+        </div>
+        <div class="text-center">
+          <h1 class="font-bold">803k</h1>
+          <p class="text-Darkgrayishblue">Likes</p>
+        </div>
+        <div class="text-center">
+          <h1 class="font-bold">1.4K</h1>
+          <p class="text-Darkgrayishblue">Photos</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution mt-9">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Arthur</a>.
+  </div>
+</body>
+
+</html>
